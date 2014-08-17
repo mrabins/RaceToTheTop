@@ -10,4 +10,6 @@
 
 @interface MRViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel *scoreLabel;
+
 @end
